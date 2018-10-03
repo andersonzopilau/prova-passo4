@@ -16,14 +16,14 @@
 
         <div class="content container">
             <div class="row">
-                        <div class="col-md-5 ed">
+                        <div class="col-md-12">
                 <a href="{% url 'agenda-events-all' %}">Próximos jogos!</a>
         </div>
-                        <div class="col-md-12 ed">
+                        <div class="col-md-12">
             <a href="{% url 'post_new' %}" class="top-menu">Nova Postagem</a>
         </div>
             </br>
-                <div class="col-md-10">
+                <div class="col-md-12">
                     {% block content %}
                     {% endblock %}
                 </div>

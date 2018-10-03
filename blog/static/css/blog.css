@@ -1,16 +1,66 @@
-h1 a:hover{
-    color: black;
-    text-decoration:none;
-    text-shadow: 10px 0px 60px #000, 0px 0px 30px black;
+.cabecario{
+	align:center;
+	background-color:#e5e619;
+	padding:25px;
+	text-decoration:none;
 }
-h1 a{
-color: #CD8500;
+.cabecario a:hover{text-decoration:none;
+color:#666600;}
+
+.cabecario a{
+	color: black;
+	text-align:center;
+	text-decoration:none;
+	font-family: 'Anton', sans-serif;
 }
-.div-background{
-    background-image: url('https://1.bp.blogspot.com/-PJoCW-X5s7s/VsdB4l5cByI/AAAAAAAAB00/mnwEtQUO-hk/s1600/IMG_1107%2Bs.jpg');
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #fff;
-    text-shadow: 0px 0px 16px #000, 0px 0px 64px yellow;
+.a{text-decoration:none;}
+
+.cabecario h1{
+	text-align:center;
+	text-decoration:none;
+	font-family: 'Anton', sans-serif;
+}
+
+.conteudo {
+	margin-top:10px;
+	text-decoration:none;
+	
+}
+
+.post{
+	text-align:center;
+	text-decoration:none;
+	padding:0 250px;
+	text-align:justify;
+	
+}
+.post h1{text-align:center;
+font-family: 'Anton', sans-serif;
+text-decoration:none;
+}
+.post a{margin-top:20px;}
+.post-form textarea, .post-form input {
+	margin:20px 0;
+    width: 90%;
+	text-decoration:none;
+}
+.noti{
+	align:center;
+	padding: 20px;
+	text-decoration:none;
+	
+	
+}
+.noti h1{font-family: 'Anton', sans-serif;
+text-decoration:none;
+	
+}
+.noti a{text-align:center;
+        color:black;
+        text-decoration:none;
+
+}
+.noti a:hover{
+    color:#666600;
+	text-decoration:none;
 }
